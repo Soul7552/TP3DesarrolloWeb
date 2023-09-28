@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-color: #49e;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
+
+#padre {
+    position: relative;
+    border: 1px solid;
+    height: 100vh;
+    width: 100%;
+}
+
+#caja1 {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+#caja2 {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translatey(-50%);
+}
+
+#caja3 {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    transform: translateX(50%);
+
+}
+
+#caja4 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translatey(-50%);
+}

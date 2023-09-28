@@ -1,0 +1,18 @@
+div {
+    background-color: #49e;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
+
+#padre {
+    position: absolute;
+    border: 1px solid;
+    height: 500px;
+    width: 500px;
+}
+
+#caja2 {
+    position: absolute;
+    top: 102px;
+}

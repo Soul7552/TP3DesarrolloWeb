@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+}
+
+div {
+    height: 155px;
+    width: 211px;
+}
+
+#padre {
+    position: relative;
+    border: 1px solid;
+    height: 100vh;
+    width: 100%;
+}
+
+#pieza1 {
+    background-image: url(pieza-de-rompecabeza-1.png);
+    position: absolute;
+    left: 1px;
+    transform: translateX(50%);
+    height: 155px;
+    width: 211px;
+}
+
+#pieza2 {
+    background-image: url(pieza-de-rompecabeza-2.png);
+    position: absolute;
+    left: 176px;
+    transform: translatey(50%);
+    transform: translatex(50%);
+    height: 211px;
+    width: 155px;
+}
+
+#pieza3 {
+    background-image: url(pieza-de-rompecabeza-3.png);
+    position: absolute;
+    left: 93px;
+    top: 147px;
+    transform: translatey(50%);
+    transform: translatex(50%);
+    height: 155px;
+    width: 211px;
+}
+
+#pieza4 {
+    background-image: url(pieza-de-rompecabeza-4.png);
+    position: absolute;
+    left: 29px;
+    top: 91px;
+    transform: translateX(50%);
+    height: 211px;
+    width: 155px;
+}
